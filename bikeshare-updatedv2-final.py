@@ -21,7 +21,7 @@ def get_filters(city, month, day):
     # get user input for day of week (all, monday, tuesday, ... sunday)
     
     while True:
-        city = input("Write a city name: Chicago, New York City or Washington?").lower()
+        city = input("Write a city name: Chicago, New York City or Washington? Don't worry about upper/lower cases").lower()
         if city not in CITY_DATA:
             print("\nThe answer is not correct.\n")
             continue   
@@ -219,7 +219,7 @@ def main():
         user_stats(df)
         display_data (df)
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
+        restart = input('\nWould you like to restart? Enter yes or no, please.\n')
         if restart.lower() != 'yes':
             break
 
