@@ -2,13 +2,16 @@
 2020-01-20
 
 ### Project Title
-Filip's project
+Exploring Bikeshare database
 
 ### Description
-Explores Bikeshare database
+This project explores Bikeshare database using Panda and NumPy libraries.
 
 ### Files used
-Bikeshare.py
+bikeshare-updatedv2-final.py
+chicago.csv
+washington.csv
+new_youk_city.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
