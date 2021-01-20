@@ -21,7 +21,7 @@ def get_filters(city, month, day):
     # get user input for day of week (all, monday, tuesday, ... sunday)
     
     while True:
-        city = input("Write a city name: Chicago, New York City or Washington?").lower()
+        city = input("Write a city name: Chicago, New York City or Washington? Don't worry about upper/lower cases").lower()
         if city not in CITY_DATA:
             print("\nThe answer is not correct.\n")
             continue   
